@@ -1,0 +1,26 @@
+body {
+	font: 18px/1.5 sans-serif;
+}
+
+.collapse {
+	max-width: 40rem;
+	padding: 1rem;
+	border: 1px solid dodgerblue;
+	background: #e5e5e5;
+	margin-bottom: 1rem;
+}
+
+.collapse :first-child {
+	margin-top: 0;
+}
+.collapse :last-child {
+	margin-bottom: 0;
+}
+
+.collapse p {
+	display: none;
+}
+
+.collapse--open p {
+	display: block;
+}
